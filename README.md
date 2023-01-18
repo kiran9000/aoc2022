@@ -4,11 +4,6 @@ All the solutions to the problems I'm currently tackling in the `Advent Of Code:
 
 # Languages:
 - [x] Javascript
-- [ ] Python
-- [ ] C
-- [ ] C++
-- [ ] Java
-- and many more...
 
 # Useful Info
 - License: `MIT`
