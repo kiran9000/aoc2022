@@ -6,7 +6,7 @@ var input = fs.readFileSync('input.txt', {
 })
 
 var caloriesArray = input.split("\r\n\r\n");
-
+caloriesArray = caloriesArray.filter(n => n)
 
 // part 1
 for (i = 0; i < caloriesArray.length; i++) {

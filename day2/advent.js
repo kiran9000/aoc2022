@@ -10,7 +10,7 @@ var choices = [
 ]
 var finalScore1 = 0;
 var finalScore2 = 0;
-var roundsArray = input.split('\n')
+var roundsArray = input.split('\r\n')
 roundsArray = roundsArray.filter(n => n)
 // part 1
 for (i = 0; i < roundsArray.length; i++) {

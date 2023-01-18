@@ -5,13 +5,12 @@ var input = fs.readFileSync('input.txt', {
 });
 
 var letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ".split('')
-
 var sum = 0;
-rucksacksArray = input.split("\r\n");
-rucksacksArray = rucksacksArray.filter(n => n)
-var duplicates = []
 var sum2 = 0;
 var keys = []
+rucksacksArray = input.split("\r\n");
+rucksacksArray = rucksacksArray.filter(n => n)
+
 // part 1
 for (i = 0; i < rucksacksArray.length; i++) {
     var firstHalf = rucksacksArray[i].slice(0, rucksacksArray[i].length / 2).split('')
@@ -26,6 +25,7 @@ for (i = 0; i < rucksacksArray.length; i++) {
 }
 console.log(`Sum of priorities for each duplicate item in a rucksack:: ${sum}`)
 
+// part 2
 for (i = 0; i < rucksacksArray.length; i += 3) {
     var group = [rucksacksArray[i], rucksacksArray[i + 1], rucksacksArray[i + 2]]
     var firstDuplicated = []
