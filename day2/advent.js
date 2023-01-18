@@ -11,6 +11,7 @@ var choices = [
 var finalScore1 = 0;
 var finalScore2 = 0;
 var roundsArray = input.split('\n')
+roundsArray = roundsArray.filter(n => n)
 // part 1
 for (i = 0; i < roundsArray.length; i++) {
     childRoundsArray = roundsArray[i].split(' ')
@@ -22,7 +23,7 @@ for (i = 0; i < roundsArray.length; i++) {
 
 function outcome(choice1, choice2) {
     if (choice1.beats == choice2.option) return 6
-    if (choice2.option  == choice1.loses) return 0
+    if (choice2.beats  == choice1.option) return 0
     else return 3
 }
 
