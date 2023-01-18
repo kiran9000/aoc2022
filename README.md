@@ -3,12 +3,7 @@
 All the solutions to the problems I'm currently tackling in the `Advent Of Code: 2022`. <3
 
 # Languages:
-- [x] Javascript
-- [ ] Python
-- [ ] C
-- [ ] C++
-- [ ] Java
-- and many more...
+- [x] Python
 
 # Useful Info
 - License: `MIT`
@@ -18,3 +13,4 @@ All the solutions to the problems I'm currently tackling in the `Advent Of Code:
 
 # TODO
 - [ ] write cleaner code but also easy to understand xd
+
